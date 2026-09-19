@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #1f2937;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+/* Header */
+
+.header {
+  background: linear-gradient(
+    135deg,
+    #4f46e5,
+    #7c3aed
+  );
+
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.header h1 {
+  margin: 0 0 10px;
+  font-size: 36px;
+}
+
+.header p {
+  margin: 0;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* Main container */
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.container > h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #6b7280;
+  margin-bottom: 35px;
+}
+
+/* Project cards */
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.project-card {
+  background: white;
+  padding: 30px;
+  border-radius: 18px;
+
+  box-shadow:
+    0 5px 20px rgba(0, 0, 0, 0.08);
+
+  transition: 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 45px;
+}
+
+.project-card h3 {
+  font-size: 22px;
+  margin: 15px 0 10px;
+}
+
+.project-card p {
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+/* Buttons */
+
+button {
+  border: none;
+  background: #6366f1;
+  color: white;
+
+  padding: 11px 20px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  font-size: 15px;
+
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #4f46e5;
+}
+
+/* Back button */
+
+.back-button {
+  margin-top: 15px;
+  background: white;
+  color: #4f46e5;
+}
+
+.back-button:hover {
+  background: #eef2ff;
+}
+
+/* Flashcard */
+
+.flashcard {
+  max-width: 650px;
+
+  margin: 40px auto;
+
+  background: white;
+
+  padding: 45px;
+
+  border-radius: 20px;
+
+  text-align: center;
+
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-number {
+  color: #6366f1;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.card-content {
+  min-height: 160px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+.card-content h2 {
+  line-height: 1.5;
+  font-size: 25px;
+}
+
+.answer-button {
+  margin-top: 20px;
+}
+
+/* Previous / Next */
+
+.navigation {
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-top: 35px;
+}
+
+.navigation button {
+  background: #374151;
+}
+
+.navigation button:hover {
+  background: #111827;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .header h1 {
+    font-size: 28px;
+  }
+
+  .flashcard {
+    padding: 25px;
+  }
+
+  .card-content h2 {
+    font-size: 21px;
+  }
+
+  .navigation {
+    gap: 10px;
+  }
+}
