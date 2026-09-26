@@ -1,16 +1,46 @@
-# React + Vite
+                                         CodeAlpha App Development Tasks
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description
 
-Currently, two official plugins are available:
+This repository contains a collection of mobile applications developed as part of the CodeAlpha App Development Internship. It includes projects ranging from study utilities and quote generators to health tracking and interactive language learning applications.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Tasks Overview
 
-## React Compiler
+Task 1: Flashcard Quiz App
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A study tool that allows users to create, review, navigate, and customize flashcards with hidden answers.
 
-## Expanding the ESLint configuration
+Task 2: Random Quote Generator
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A simple application that displays random quotes and author details at the click of a button.
+
+Task 3: Fitness Tracker App
+
+A health and activity tracker featuring manual entry for workouts, calorie tracking, and visual progress dashboards.
+
+Task 4: Language Learning App
+
+An interactive education app with daily lessons, practice quizzes, and category-based vocabulary practice.
+
+Repository Structure
+
+CodeAlpha_AppDevelopment/
+├── Task1_FlashcardQuizApp/
+├── Task2_RandomQuoteGenerator/
+├── Task3_FitnessTrackerApp/
+└── Task4_LanguageLearningApp/
+
+How to Run
+
+ * Clone this repository:
+   git clone https://github.com/NeriyaDas/CodeAlpha_AppDevelopment.git
+
+ * Open the specific task folder in your preferred IDE (e.g., VS Code or Android Studio).
+   
+ * Install necessary dependencies for the respective project.
+   
+ * Launch the application using an emulator or a connected physical device.
+   
+Author
+
+Neriya Das
