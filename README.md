@@ -25,9 +25,13 @@ An interactive education app with daily lessons, practice quizzes, and category-
 Repository Structure
 
 CodeAlpha_AppDevelopment/
+
 ├── Task1_FlashcardQuizApp/
+
 ├── Task2_RandomQuoteGenerator/
+
 ├── Task3_FitnessTrackerApp/
+
 └── Task4_LanguageLearningApp/
 
 How to Run
